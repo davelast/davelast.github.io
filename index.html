@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dave Lastovskiy</title>
-<meta name="description" content="Dave Lastovskiy's personal website. Photography, content, and portfolio.">
+<meta name="description" content="Dave Lastovskiy scales startups with founders, focusing on consumer healthcare and proactive wellbeing.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=DM+Sans:wght@400&display=swap" rel="stylesheet">
@@ -28,43 +28,10 @@ a:focus-visible { outline: 2px solid #0000ee; outline-offset: 4px; }
     <h1>Dave Lastovskiy</h1>
     <h2>I scale startups with founders</h2>
     <p>Over the last 10+ years I've scaled startups – both as a leader and an individual contributor.</p>
-    <p>I write a newsletter. It's delivered basically never and it touches marketing, self-improvement, and culture. You shouldn't subscribe, seriously.</p>
-    <p class="links"><a href="#photography">Photography</a><br>
-    <a href="#content">Content</a><br>
-    <a href="#portfolio">Portfolio</a></p>
+    <p>I focus on consumer healthcare with the intention of enabling everyone to be proactive about their wellbeing.</p>
+
   </section>
-  <section id="photography" hidden>
-    <h1>Photography</h1>
-    <p>Selected photographs coming soon.</p>
-    <p><a href="#">Home</a></p>
-  </section>
-  <section id="content" hidden>
-    <h1>Content</h1>
-    <p>Articles, links, and other content coming soon.</p>
-    <p><a href="#">Home</a></p>
-  </section>
-  <section id="portfolio" hidden>
-    <h1>Portfolio</h1>
-    <p>Selected projects and résumé coming soon.</p>
-    <p><a href="#">Home</a></p>
-  </section>
-  <noscript><style>section[hidden] { display: block; margin-top: 40px; }</style></noscript>
 </main>
-<script>
-  function showPage() {
-    const name = location.hash.slice(1);
-    const page = ['photography', 'content', 'portfolio'].includes(name) ? name : 'home';
-    document.querySelectorAll('main > section').forEach(section => { section.hidden = section.id !== page; });
-    document.title = page === 'home' ? 'Dave Lastovskiy' : page.charAt(0).toUpperCase() + page.slice(1) + ' — Dave Lastovskiy';
-    window.scrollTo(0, 0);
-  }
-  window.addEventListener('hashchange', () => {
-    showPage();
-    const heading = document.querySelector('section:not([hidden]) h1');
-    heading.setAttribute('tabindex', '-1');
-    heading.focus({ preventScroll: true });
-  });
-  showPage();
-</script>
+
 </body>
 </html>
