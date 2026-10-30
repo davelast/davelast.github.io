@@ -1,0 +1,11 @@
+ASSET NAMING AND MANIFEST
+Video: bottle_C01_E01_H02_9x16_15s_v01.mp4
+Static: bottle_C02_E01_H01_4x5_static_v01.jpg
+C = concept; E = execution; H = opening; v = production revision.
+Do not overwrite a live version with a different asset.
+Use a separate test ID; one asset can participate in more than one test.
+
+Manifest fields:
+asset_id, filename, concept_id, execution_id, hook_id, version,
+format, duration_seconds, placement, promise, proof_source,
+cta, destination, hypothesis, test_id, creator, approved_at

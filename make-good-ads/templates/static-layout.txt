@@ -1,0 +1,14 @@
+STATIC AD LAYOUT
+Concept ID / hypothesis / intended placement:
+One thing the viewer should understand:
+Primary image or product demonstration:
+Headline:
+Supporting proof (only what can be substantiated):
+Product / brand identifier:
+Offer, terms, and CTA:
+Primary ad text / headline fields:
+Destination and matching landing-page section:
+Reading order: image -> headline -> proof -> action
+Check: can someone explain the offer at phone size?
+Check: does the design still work in the actual placement crop?
+Check: does adding another element clarify the message or compete with it?

@@ -1,0 +1,13 @@
+DELIVERY CHECKLIST
+[ ] Brief approved; one promise and a clear buyer situation.
+[ ] Evidence, testimonials, footage, music, and claim permissions checked.
+[ ] Opening accurately leads into the offer; payoff delivered.
+[ ] Product and advertiser are recognizable.
+[ ] Price, terms, disclosures, and CTA match the destination.
+[ ] Mobile legibility, captions, audio, spelling, and accessibility checked.
+[ ] Each intended placement preview checked for cropping and UI overlap.
+[ ] Current Meta placement requirements checked before export.
+[ ] Concept / execution / hook IDs and version numbers in filenames.
+[ ] Finals, editable files, captions, thumbnails, copy, and source assets delivered.
+[ ] Asset manifest maps every file to hypothesis, proof, CTA, and destination.
+[ ] Media buyer confirms event tracking, economics, test design, and launch readiness.

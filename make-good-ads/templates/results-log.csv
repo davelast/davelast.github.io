@@ -1,0 +1,1 @@
+test_id,asset_id,design,measurement_source,optimization_event,attribution_window,cohort_start,cohort_end,outcome_maturity_date,spend,impressions,outbound_clicks,landing_page_views,primary_outcomes,new_customers,qualified_leads,revenue,refunds_or_cancellations,primary_cost,uncertainty_or_test_readout,quality_guardrail,decision,next_brief,owner
