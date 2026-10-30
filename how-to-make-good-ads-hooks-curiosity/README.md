@@ -1,6 +1,6 @@
 # Ads, hooks, and curiosity gap
 
-Static page for `/how-to-make-good-ads-hooks-curiosity`, linked from the homepage's Writing section. GitHub Pages serves the directory's `index.html`; the clean URL redirects to its directory URL.
+Make Good Ads is a static page for `/how-to-make-good-ads-hooks-curiosity`, linked from the homepage's Projects section. GitHub Pages serves the directory's `index.html`; the clean URL redirects to its directory URL.
 
 ## Updating the page
 

@@ -15,7 +15,7 @@ for entry in entries:
     assert entry['url'] == f"https://www.instagram.com/reel/{entry['id']}/"
     assert (PAGE / entry['image']).is_file(), f"Missing screenshot: {entry['id']}"
 
-title = 'How to make ads that convert with hooks and curiosity gap'
+title = 'Make Good Ads'
 description = '35 examples of hooks, curiosity gaps, and premium ad creative. Short explanations of what to notice and how to apply it.'
 canonical = 'https://davelasto.com/how-to-make-good-ads-hooks-curiosity'
 principles = [
@@ -69,7 +69,7 @@ html = f'''<!doctype html>
 <meta property="og:image" content="{canonical}/assets/social.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Hooks, curiosity, and the reason to keep watching. A guide by Dave Lastovskiy.">
+<meta property="og:image:alt" content="Make Good Ads. A guide to hooks and curiosity by Dave Lastovskiy.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{description}">
