@@ -10,6 +10,9 @@
   let visible = all;
   let current = 0;
   let scheduled = false;
+  // Explicit example links own their initial position instead of competing
+  // with a restored position from a previous visit to this long page.
+  if (all.some(item => `#${item.id}` === location.hash)) history.scrollRestoration = 'manual';
 
   function update() {
     counter.textContent = `${current + 1} of ${visible.length}`;
@@ -74,6 +77,7 @@
   // Reload restoration and web-font layout can happen after deferred scripts.
   // Reposition explicit deep links once the final page geometry is ready.
   addEventListener('pageshow', () => requestAnimationFrame(revealHash));
+  addEventListener('load', () => requestAnimationFrame(revealHash));
   if (document.fonts) document.fonts.ready.then(revealHash);
   if ('ResizeObserver' in window) new ResizeObserver(() => {
     document.documentElement.style.setProperty('--toolbar-height', `${toolbar.offsetHeight}px`);

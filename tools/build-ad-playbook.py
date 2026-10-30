@@ -3,6 +3,7 @@
 import json
 from html import escape
 from pathlib import Path
+from guide_layout import navigation
 
 ROOT = Path(__file__).resolve().parents[1]
 PAGE = ROOT / 'how-to-make-good-ads-hooks-curiosity'
@@ -15,7 +16,7 @@ for entry in entries:
     assert entry['url'] == f"https://www.instagram.com/reel/{entry['id']}/"
     assert (PAGE / entry['image']).is_file(), f"Missing screenshot: {entry['id']}"
 
-title = 'Make Good Ads'
+title = 'Make Good Ads — Examples'
 description = '35 examples of hooks, curiosity gaps, and premium ad creative. Short explanations of what to notice and how to apply it.'
 canonical = 'https://davelasto.com/how-to-make-good-ads-hooks-curiosity'
 principles = [
@@ -78,16 +79,17 @@ html = f'''<!doctype html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/{PAGE.name}/style.css">
+<link rel="stylesheet" href="/make-good-ads/guide.css">
 <script src="/{PAGE.name}/browse.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#examples">Skip to examples</a>
-<header class="wrap">
-  <a class="home" href="/">← Dave Lastovskiy</a>
-  <p class="eyebrow">Creative field notes / 35 examples</p>
-  <h1>{title}</h1>
-  <p class="lede">A good hook makes the right person want the next sentence. A curiosity gap gives them a reason to stay.</p>
-  <p class="intro-note">A collection of tutorials, creative breakdowns, and brand examples. What to notice, why it holds attention, and how to use the idea in your own ads.</p>
+{navigation('examples')}
+<header class="wrap library-intro">
+  <p class="eyebrow">04 / Example library · 35 examples</p>
+  <h1>Examples</h1>
+  <p class="lede">Study the choice behind the creative. Then decide whether it fits your brief.</p>
+  <p class="intro-note">Tutorials, creative breakdowns, and brand examples. For the full workflow, start with <a href="/make-good-ads/">Make Good Ads</a>. All 35 original examples remain in their original order.</p>
   <details class="principles"><summary>The short version: eight ideas to keep in mind</summary><ol>{overview}</ol></details>
 </header>
 <nav class="toolbar" aria-label="Browse examples" hidden>

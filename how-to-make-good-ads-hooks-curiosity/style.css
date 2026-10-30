@@ -8,6 +8,7 @@ a:hover { text-decoration-thickness:2px; }
 [hidden] { display:none !important; }
 .wrap { width:min(960px,calc(100% - 64px)); margin-inline:auto; }
 .home { display:inline-block; margin:32px 0 64px; font-size:14px; }
+.library-intro { padding-top:48px; }
 .eyebrow,.meta,.number,figcaption,.hint,footer { font-size:12px; }
 .eyebrow { letter-spacing:.14em; text-transform:uppercase; margin:0 0 18px; color:var(--muted); }
 h1,h2,h3,summary { font-family:'Jost',Arial,sans-serif; }

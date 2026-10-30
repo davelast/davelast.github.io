@@ -1,6 +1,6 @@
 # Ads, hooks, and curiosity gap
 
-Make Good Ads is a static page for `/how-to-make-good-ads-hooks-curiosity`, linked from the homepage's Projects section. GitHub Pages serves the directory's `index.html`; the clean URL redirects to its directory URL.
+The Make Good Ads example library remains at `/how-to-make-good-ads-hooks-curiosity`, linked from the guide at `/make-good-ads/`. GitHub Pages serves the directory's `index.html`; the clean URL redirects to its directory URL. Shared navigation connects the library to Principles, Production, and Testing.
 
 ## Updating the page
 

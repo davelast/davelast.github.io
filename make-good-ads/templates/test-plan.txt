@@ -1,0 +1,21 @@
+CREATIVE TEST PLAN
+Test ID / owner / creator / approver:
+Business question:
+Falsifiable hypothesis and reasoning:
+Exploration, execution refinement, randomized A/B, or lift test:
+Primary outcome, denominator, and measurement source:
+Business target and how it relates to acquisition economics:
+Control / challenger / material change:
+Constants (offer, destination, tracking, audience eligibility, schedule):
+Optimization event / attribution window / reporting basis:
+Expected conversion and customer-quality delay:
+Baseline rate or outcome and relevant comparison period:
+Minimum worthwhile effect:
+Sizing method / confidence / power / multiple-comparison treatment:
+Planned sample, budget, duration, and feasibility:
+Decision rule (including inconclusive) agreed before launch:
+Safety stop conditions (tracking, spend cap, availability, harmful error):
+Quality guardrails (refunds, cancellations, qualified leads, margin):
+Platform delivery and randomization checks:
+Review date after outcome maturation:
+What each plausible result would change in the next brief:
